@@ -1,6 +1,6 @@
 package kr.ac.kumoh.ce.s23termproject
 
-data class Festival(
+data class Festival (
     val festival_id: Int,
     val name: String,
     val location: String,
