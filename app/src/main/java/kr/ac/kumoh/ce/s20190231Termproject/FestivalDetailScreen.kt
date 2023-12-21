@@ -1,4 +1,4 @@
-package kr.ac.kumoh.ce.s23termproject
+package kr.ac.kumoh.ce.s20190231Termproject
 
 import android.content.Intent
 import android.net.Uri
@@ -32,10 +32,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat.startActivity
 import coil.compose.AsyncImage
-import kr.ac.kumoh.ce.s23termproject.ui.theme.pretendardExBold
-import kr.ac.kumoh.ce.s23termproject.ui.theme.pretendardM
-import kr.ac.kumoh.ce.s23termproject.ui.theme.pretendardR
-import kr.ac.kumoh.ce.s23termproject.ui.theme.pretendardSeBold
+import kr.ac.kumoh.ce.s20190231Termproject.ui.theme.pretendardExBold
+import kr.ac.kumoh.ce.s20190231Termproject.ui.theme.pretendardM
+import kr.ac.kumoh.ce.s20190231Termproject.ui.theme.pretendardR
+import kr.ac.kumoh.ce.s20190231Termproject.ui.theme.pretendardSeBold
 
 @Composable
 fun FestivalDetail(festival: Festival, performList: List<Performance>) {

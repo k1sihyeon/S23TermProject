@@ -1,4 +1,4 @@
-package kr.ac.kumoh.ce.s23termproject.ui.theme
+package kr.ac.kumoh.ce.s20190231Termproject.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

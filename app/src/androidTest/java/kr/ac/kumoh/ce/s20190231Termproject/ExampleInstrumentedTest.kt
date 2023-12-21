@@ -1,4 +1,4 @@
-package kr.ac.kumoh.ce.s23termproject
+package kr.ac.kumoh.ce.s20190231Termproject
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

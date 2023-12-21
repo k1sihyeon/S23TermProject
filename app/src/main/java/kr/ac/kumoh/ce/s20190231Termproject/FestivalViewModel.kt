@@ -1,4 +1,4 @@
-package kr.ac.kumoh.ce.s23termproject
+package kr.ac.kumoh.ce.s20190231Termproject
 
 import android.util.Log
 import androidx.lifecycle.LiveData
@@ -8,7 +8,6 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 class FestivalViewModel() : ViewModel() {
     private val SERVER_URL = "https://port-0-s23termproj-1drvf2llomiqscb.sel5.cloudtype.app/"

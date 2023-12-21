@@ -1,4 +1,4 @@
-package kr.ac.kumoh.ce.s23termproject
+package kr.ac.kumoh.ce.s20190231Termproject
 
 import retrofit2.http.GET
 import retrofit2.http.Path

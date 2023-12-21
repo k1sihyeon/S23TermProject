@@ -1,4 +1,4 @@
-package kr.ac.kumoh.ce.s23termproject
+package kr.ac.kumoh.ce.s20190231Termproject
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Modifier
-import kr.ac.kumoh.ce.s23termproject.ui.theme.S23TermProjectTheme
+import kr.ac.kumoh.ce.s20190231Termproject.ui.theme.S23TermProjectTheme
 
 class MainActivity : ComponentActivity() {
 

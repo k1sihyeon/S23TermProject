@@ -1,4 +1,4 @@
-package kr.ac.kumoh.ce.s23termproject
+package kr.ac.kumoh.ce.s20190231Termproject
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -32,9 +32,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import coil.compose.AsyncImage
-import kr.ac.kumoh.ce.s23termproject.ui.theme.pretendardExBold
-import kr.ac.kumoh.ce.s23termproject.ui.theme.pretendardM
-import kr.ac.kumoh.ce.s23termproject.ui.theme.pretendardSeBold
+import kr.ac.kumoh.ce.s20190231Termproject.ui.theme.pretendardExBold
+import kr.ac.kumoh.ce.s20190231Termproject.ui.theme.pretendardM
+import kr.ac.kumoh.ce.s20190231Termproject.ui.theme.pretendardSeBold
 
 enum class FestivalScreen {
     List,

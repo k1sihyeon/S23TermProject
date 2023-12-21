@@ -1,4 +1,4 @@
-package kr.ac.kumoh.ce.s23termproject.ui.theme
+package kr.ac.kumoh.ce.s20190231Termproject.ui.theme
 
 import android.app.Activity
 import android.os.Build
