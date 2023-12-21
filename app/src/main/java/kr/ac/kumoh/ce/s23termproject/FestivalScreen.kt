@@ -32,6 +32,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import coil.compose.AsyncImage
+import kr.ac.kumoh.ce.s23termproject.ui.theme.pretendardExBold
+import kr.ac.kumoh.ce.s23termproject.ui.theme.pretendardM
+import kr.ac.kumoh.ce.s23termproject.ui.theme.pretendardSeBold
 
 enum class FestivalScreen {
     List,
@@ -122,18 +125,18 @@ fun FestivalItem(navController: NavController, festList: List<Festival>, index: 
 
 @Composable
 fun TextName(name: String) {
-    Text(name, fontSize = 25.sp)
+    Text(name, fontSize = 25.sp, fontFamily = pretendardExBold)
 }
 
 @Composable
 fun TextLoc(loc: String) {
-    Text(loc, fontSize = 15.sp)
+    Text(loc, fontSize = 15.sp, fontFamily = pretendardSeBold)
 }
 
 @Composable
 fun TextDate(start: String, end: String, size: Int) {
     val startD = start.substringBefore("T")
     val endD = end.substringBefore("T")
-    Text(startD + " ~ " + endD, fontSize = size.sp)
+    Text(startD + " ~ " + endD, fontSize = size.sp, fontFamily = pretendardM)
 }
 
