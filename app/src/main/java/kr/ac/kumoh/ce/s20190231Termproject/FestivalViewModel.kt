@@ -10,9 +10,10 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class FestivalViewModel() : ViewModel() {
-    private val SERVER_URL = "https://port-0-s23termproj-1drvf2llomiqscb.sel5.cloudtype.app/"
+    private val SERVER_URL = "https://mykumoh.azurewebsites.net/"
     private val festivalApi: FestivalApi
     private val _festivalList = MutableLiveData<List<Festival>>()
+
     val festivalList: LiveData<List<Festival>>
         get() = _festivalList
 
